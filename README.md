@@ -7,15 +7,20 @@ This was a model system developed by me and friend @moola Vishwachadra Rajendar 
 Our Results:
 
 model_name              Accuracy Score 
+
 Linear SVC              94.1864 %
+
 Logistic Regression     87.1613 %
 
 MultinomialNB (after hypertuning and overcoming the Class Imbalance Problem)
+
 Training Accuracy       91.2347 %
+
 Testing Accuracy        95.1142 %
 
 
 SVM - parameters C=10.0, kernel='linear',degree=3 ,gamma=0.01 
+
 Training Accuracy       95.5495 %
+
 Testing Accuracy        98.7641 %
-jjd
