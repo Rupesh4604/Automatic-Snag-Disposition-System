@@ -1,26 +1,35 @@
 # Automatic-Snag-Disposition-System
 
-Problem Statement : To Design and Develop a Machine Learning Model using Machine Learning Algorithms like Multinomial Naive Bayes, Support Vector Machine, for the prediction of Snag Disposition based on SQMS (SNAG & QUERY MANAGEMENT SYSTEM) dataset. The live Snags taken for the validation of model.
+This project aims to design and develop a Machine Learning model using algorithms like Multinomial Naive Bayes and Support Vector Machine (SVM) for the prediction of Snag Disposition based on the SNAG & QUERY MANAGEMENT SYSTEM (SQMS) dataset. The model utilizes live snags for validation and evaluation.
 
-This was a model system developed by me and friend @moola Vishwachadra Rajendar as a part of our internship at AURDC ( Aircraft Upgrade, Research and Development Centre) under DQ, Hindustan Aeronautics Limited (HAL), Ojhar, Nasik India. The Model uses Various Machine Learning Algorithms like Naive Bayes, MultinomialBN, Logistic Regression, Support Vector Machines (SVM), using different kernels, Random Forest Classifer and many more to find the best one that fit the model.
+## Problem Statement
 
-Our Results:
+The problem statement is to create a predictive model that can accurately classify the disposition of snags based on the given SQMS dataset. The model will utilize various machine learning algorithms such as Multinomial Naive Bayes and SVM with different kernels to determine the best-performing algorithm for this task.
 
-model_name              Accuracy Score 
+## Project Details
 
-Linear SVC              94.1864 %
+This project was developed by me and my friend @moola Vishwachadra Rajendar during our internship at AURDC (Aircraft Upgrade, Research and Development Centre) under DQ, Hindustan Aeronautics Limited (HAL), Ojhar, Nasik, India. The primary goal was to develop an efficient and accurate model using machine learning techniques.
 
-Logistic Regression     87.1613 %
+## Results
 
-MultinomialNB (after hypertuning and overcoming the Class Imbalance Problem)
+The following are the results obtained from the different machine learning algorithms used in this project:
 
-Training Accuracy       91.2347 %
+| Model Name              | Accuracy Score |
+|-------------------------|----------------|
+| Linear SVC              | 94.1864%       |
+| Logistic Regression     | 87.1613%       |
+| MultinomialNB           |                |
+| (after hypertuning and overcoming the Class Imbalance Problem)  |                |
+| Training Accuracy       | 91.2347%       |
+| Testing Accuracy        | 95.1142%       |
+| SVM                     |                |
+| (parameters: C=10.0, kernel='linear', degree=3, gamma=0.01)  |                |
+| Training Accuracy       | 95.5495%       |
+| Testing Accuracy        | 98.7641%       |
 
-Testing Accuracy        95.1142 %
+These results indicate the performance of each algorithm on the task of Snag Disposition prediction. The SVM model with the specified parameters achieved the highest accuracy among the tested algorithms.
 
+Feel free to explore the code and dataset provided in this repository to understand the implementation details and further enhance the system.
 
-SVM - parameters C=10.0, kernel='linear',degree=3 ,gamma=0.01 
+**Note**: This project was developed as a part of our internship and aims to provide a solution for snag disposition prediction. The results and accuracy scores may vary depending on the dataset and implementation details.
 
-Training Accuracy       95.5495 %
-
-Testing Accuracy        98.7641 %
