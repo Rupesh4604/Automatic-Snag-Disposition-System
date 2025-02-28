@@ -29,11 +29,6 @@ The following are the results obtained from the different machine learning algor
 
 These results indicate the performance of each algorithm on the task of Snag Disposition prediction. The SVM model with the specified parameters achieved the highest accuracy among the tested algorithms.
 
-![image](https://github.com/user-attachments/assets/1370c670-ac20-4a77-a497-b778ed8fb020)
-
-![image](https://github.com/user-attachments/assets/faf63e93-087b-4736-a374-241782086270)
-
-
 Feel free to explore the code and dataset provided in this repository to understand the implementation details and further enhance the system.
 
 **Note**: This project was developed as a part of our internship and aims to provide a solution for snag disposition prediction. The results and accuracy scores may vary depending on the dataset and implementation details.
